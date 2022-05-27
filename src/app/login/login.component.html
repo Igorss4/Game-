@@ -1,1 +1,40 @@
-<p>login works!</p>
+<div class="container-fluid ">
+
+    <div class="row d-flex justify-content-around ">
+
+        <div class="col-md-5 justify-content-center ">
+
+            <h1 class="text-center mb-3 ">
+                Entrar
+            </h1>
+            <form>
+                <div class="form-group">
+                    <label for="usuario">
+                        Usuario
+                    </label>
+                    <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Seu Usuario"
+                        name="usuario">
+                </div>
+
+                <div class="form-group">
+                    <label for="senha">
+                        Senha
+                    </label>
+                    <input class="form-control" type="password" name="senha" id="senha" placeholder="Sua Senha"
+                        name="senha">
+                </div>
+
+                <div class="d-flex justify-content-center mt-3">
+                    <button type="submit" class="btn btn-danger" routerLink="/class">
+                        Entrar
+                    </button>
+                </div>
+            </form>
+            <hr class="mt-5 mb-5">
+
+            <p class="text-center"> Não tem uma conta? <a href="/register">Cadastre-se</a></p>
+        </div>
+
+    </div>
+
+</div>

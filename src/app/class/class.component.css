@@ -40,13 +40,14 @@
 }
 
 .card0 {
-    background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg') center center no-repeat;
+    background: url('../../assets/img/LancerF.jpg') center center no-repeat;
     background-size: 300px;
 }
 
 .card0:hover {
-    background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg') left center no-repeat;
-    background-size: 600px;
+    background: url('../../assets/img/LancerF.jpg') top center no-repeat;
+    background-size: 330px;
+
 }
 
 h2 {
@@ -58,13 +59,13 @@ h2 {
 }
 
 .card1 {
-    background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg') center center no-repeat;
+    background: url('../../assets/img/ShamanF.jpg') center center no-repeat;
     background-size: 300px;
 }
 
 .card1:hover {
-    background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg') left center no-repeat;
-    background-size: 600px;
+    background: url('../../assets/img/ShamanF.jpg') top center no-repeat;
+    background-size: 330px;
 }
 
 h2 {
@@ -76,13 +77,13 @@ h2 {
 }
 
 .card2 {
-    background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') center center no-repeat;
+    background: url('../../assets/img/ArcherF.jpg') center center no-repeat;
     background-size: 300px;
 }
 
 .card2:hover {
-    background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') left center no-repeat;
-    background-size: 600px;
+    background: url('../../assets/img/ArcherF.jpg') top center no-repeat;
+    background-size: 330px;
 }
 
 h2 {
@@ -106,15 +107,22 @@ h2 {
     transition: opacity 1s;
 }
 
-.icons {
+.textCard {
     position: absolute;
     fill: #fff;
     color: #fff;
-    height: 130px;
-    top: 226px;
-    width: 50px;
+    top: 300px;
+    left: 70px;
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
+.text{
+    width:340px;
+    height:217px;
+    opacity:0;
+  }
+.card:hover .text{
+    opacity:1;
+  }

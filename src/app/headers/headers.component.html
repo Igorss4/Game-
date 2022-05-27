@@ -1,1 +1,31 @@
-<p>headers works!</p>
+<div class="container ml-0">
+    <div class="row">
+        <div class="col-md-4 d-flex justify-content-center align-items-center bg-danger">
+
+            <div class="col-md-3">
+                <div class="row">
+                <img
+                    src="https://avatars.githubusercontent.com/u/99223059?s=400&u=89e96a960240c1e095f879a5a7fec37e06373b68&v=4"
+                    alt=""  class="img-fluid rounded-circle"></div>
+        </div>
+            <div class="col-md-9 ">
+
+                <h1>LV: <span>{{xpService.Lv}}</span></h1>
+
+                <div id="exp" class="progress">
+                    <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar"
+                        style="width: {{xpService.numeroXP}}%" aria-valuenow="500" aria-valuemin="0" aria-valuemax="500"></div>
+                </div>
+
+                <h2>Nome-<span>{{classService.tipoClass}}</span></h2>
+
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<button (click)="xpService.getXP()">xp
+</button>
